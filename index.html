@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="this is a solution to social media dashboard with them switcher from frontend mentor" />
+      <meta name="keyword" content="html,css, flexbox, grid, javascript" />
+      <meta name="author" content="melvin" />
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+      <link rel="stylesheet" href="./styles/styles.css" />
+
+      <title>Frontend Mentor | [Challenge Name Here]</title>
+   </head>
+
+   <body class="dark_mode">
+      <div class="container">
+         <header class="header dark_mode">
+            <div class="titleTotalFollowers_container">
+               <h1 class="title dark_mode">Social Media Dashboard</h1>
+               <p class="total_followers">Total Followers: 23,004</p>
+            </div>
+
+            <div class="themeSwitch_container">
+               <div class="dark_mode_text">Dark Mode</div>
+               <input type="checkbox" name="theme_switch" id="toggle_switch" class="toggle_switch" aria-label="toggle switch" checked />
+            </div>
+         </header>
+
+         <main class="main_content">
+            <div class="followerSubcribers_container">
+               <!-- /* facebook */ -->
+               <div class="card_container facebook">
+                  <div class="card dark_mode">
+                     <div class="logo_container">
+                        <img src="./images/icon-facebook.svg" alt="Facebook" class="facebook_logo" />
+                        <div class="address">@nathanf</div>
+                     </div>
+
+                     <div class="followers_total_container">
+                        <h2 class="total_num dark_mode">1987</h2>
+                        <div class="followers_text">Followers</div>
+                     </div>
+
+                     <div class="new_followers">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="up">12 Today</span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* twitter */ -->
+               <div class="card_container twitter">
+                  <div class="card dark_mode">
+                     <div class="logo_container">
+                        <img src="./images/icon-twitter.svg" alt="Twitter" class="twitter_logo" />
+                        <div class="address">@nathanf</div>
+                     </div>
+
+                     <div class="followers_total_container">
+                        <h2 class="total_num dark_mode">1044</h2>
+                        <div class="followers_text">Followers</div>
+                     </div>
+
+                     <div class="new_followers">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="up">99 Today</span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* instagram */ -->
+               <div class="card_container instagram">
+                  <div class="card dark_mode">
+                     <div class="logo_container">
+                        <img src="./images/icon-instagram.svg" alt="Instagram" class="instagram_logo" />
+                        <div class="address">@realnathanf</div>
+                     </div>
+
+                     <div class="followers_total_container">
+                        <h2 class="total_num dark_mode">11k</h2>
+                        <div class="followers_text">Followers</div>
+                     </div>
+
+                     <div class="new_followers">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="up">1099 Today</span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* youtube */ -->
+               <div class="card_container youtube">
+                  <div class="card dark_mode">
+                     <div class="logo_container">
+                        <img src="./images/icon-youtube.svg" alt="Youtube" class="youtube_logo" />
+                        <div class="address">Nathan F.</div>
+                     </div>
+
+                     <div class="followers_total_container">
+                        <h2 class="total_num dark_mode">8239</h2>
+                        <div class="followers_text">Subscribers</div>
+                     </div>
+
+                     <div class="new_followers">
+                        <img src="./images/icon-down.svg" alt="Arrow down" class="arrow_down" />
+                        <span class="down">144 Today</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <h1 class="overview_text dark_mode">Overview - Today</h1>
+            <div class="overview_container">
+               <!-- /* fb views */ -->
+               <div class="card_overview dark_mode card_overview1">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Page Views</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-facebook.svg" alt="Facebook" class="facebook_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">87</div>
+                     <div class="percentage">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_up"> 3% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* fb likes*/ -->
+               <div class="card_overview dark_mode card_overview2">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Likes</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-facebook.svg" alt="Facebook" class="facebook_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">52</div>
+                     <div class="percentage">
+                        <img src="./images/icon-down.svg" alt="Arrow down" class="arrow_up" />
+                        <span class="overview_down"> 2% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* instagram likes*/ -->
+               <div class="card_overview dark_mode card_overview3">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Likes</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-instagram.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">5462</div>
+                     <div class="percentage">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_up"> 2257% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* instagram profile views*/ -->
+               <div class="card_overview dark_mode card_overview4">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Profile Views</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-instagram.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">52k</div>
+                     <div class="percentage">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_up"> 1375% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* retweets */ -->
+               <div class="card_overview dark_mode card_overview5">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Retweets</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-twitter.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">117</div>
+                     <div class="percentage">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_up"> 303% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* twitter likes */ -->
+               <div class="card_overview dark_mode card_overview6">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Likes</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-twitter.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">507</div>
+                     <div class="percentage">
+                        <img src="./images/icon-up.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_up"> 553% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* youtube likes */ -->
+               <div class="card_overview dark_mode card_overview7">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Likes</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-youtube.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">107</div>
+                     <div class="percentage">
+                        <img src="./images/icon-down.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_down"> 19% </span>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- /* youtube total views */ -->
+               <div class="card_overview dark_mode card_overview8">
+                  <div class="overview_title_container">
+                     <div class="overview_title">Total Views</div>
+                     <div class="overview_logo_container">
+                        <img src="./images/icon-youtube.svg" alt="Instagram" class="instagram_logo" />
+                     </div>
+                  </div>
+
+                  <div class="views_percentage_container">
+                     <div class="numbers dark_mode">1407</div>
+                     <div class="percentage">
+                        <img src="./images/icon-down.svg" alt="Arrow up" class="arrow_up" />
+                        <span class="overview_down"> 12% </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+
+         <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. Coded by
+            <a href="https://github.com/boymelvs" target="_blank" rel="noreferrer noopener">boymelvs</a>.
+         </footer>
+      </div>
+      <script src="./scripts/index.js"></script>
+   </body>
+</html>
