@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social media dashboard with theme switcher solution](./design/desktop-design-dark.jpeg)
+![Social media dashboard with theme switcher solution](./design/desktop-design-light.jpeg)
 
 ### Links
 
