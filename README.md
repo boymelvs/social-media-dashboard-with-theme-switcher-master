@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--  Live Site URL: [REST Countries API with color theme switcher solution](https://boymelvs.github.io/social-media-dashboard-with-theme-switcher-master)
+-  Live Site URL: [Social media dashboard with theme switcher solution](https://boymelvs.github.io/social-media-dashboard-with-theme-switcher-master)
 
 ### Built with
 
