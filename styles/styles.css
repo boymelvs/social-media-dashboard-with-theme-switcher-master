@@ -204,10 +204,11 @@ body.dark_mode.active {
    }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1301px) {
    .followerSubcribers_container {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
       width: unset;
    }
 }
@@ -227,7 +228,7 @@ body.dark_mode.active {
    background: var(--facebook);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .facebook {
       grid-row: 1;
       grid-column: 1 / span 3;
@@ -238,7 +239,7 @@ body.dark_mode.active {
    background: var(--twitter);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .twitter {
       grid-row: 1;
       grid-column: 4 / span 3;
@@ -249,7 +250,7 @@ body.dark_mode.active {
    background: linear-gradient(90deg, var(--instagram-linear-gradient-from) 10%, var(--instagram-linear-gradient-to) 90%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .instagram {
       grid-row: 1;
       grid-column: 7 / span 3;
@@ -260,7 +261,7 @@ body.dark_mode.active {
    background: var(--youtube);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .youtube {
       grid-row: 1;
       grid-column: 10 / span 3;
@@ -390,10 +391,11 @@ body.dark_mode.active {
    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .overview_container {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
       width: unset;
    }
 }
@@ -410,7 +412,7 @@ body.dark_mode.active {
    position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1301px) {
    .card_overview1 {
       grid-row: 1;
       grid-column: 1 / span 3;
